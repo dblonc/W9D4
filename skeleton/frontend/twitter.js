@@ -4,7 +4,7 @@ $(() => {
     const button_follow_toggle = $('button.follow-toggle')
 
     button_follow_toggle.each( function(idx,button){
-        new FollowToggle($(button));
+       new FollowToggle($(button));
         
   
     })
